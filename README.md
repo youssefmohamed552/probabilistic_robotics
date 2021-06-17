@@ -23,3 +23,9 @@ or run
 
 ## Visualization
 to visualize on gazebo and get all the rostopics visualized properly `roslaunch turtlebot3_gazebo turtlebot3_gazebo_rvis.launch`
+
+## Debugging tools
+### rosbag
+- `rosbag record <topic> ..`
+- `rosbag play <recording-file>`
+- `rosbag info <recording-file>`
